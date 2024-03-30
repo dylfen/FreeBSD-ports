@@ -747,20 +747,6 @@
 				}
 			]
 		},
-		"VPN_4": {
-			"info":		"A list of common VPN providers",
-			"description":	"List of common VPN providers.",
-			"action":	"block",
-			"cron":		"Weekly",
-			"feeds": [
-				{
-					"feed":		"Ejrv VPN",
-					"website":	"https://github.com/ejrv/VPNs",
-					"url":		"https://raw.githubusercontent.com/ejrv/VPNs/master/vpn-ipv4.txt",
-					"header":	"Ejrv_VPNv4"
-				}
-			]
-		},
 		"BlockListDE": {
 			"info":		"BlockList.DE is a fail2ban reporting service.-LB-The 'PRI3 Alias' contains a single URL for all BlockList.DE feeds.-LB-This BlockList.DE Alias can be utilized to enable specific BlockList.DE Feeds, as desired.-LB-The frequency of updates is set to once per hour.",
 			"description":	"Collection of specific fail2ban reporting service Feeds.",
